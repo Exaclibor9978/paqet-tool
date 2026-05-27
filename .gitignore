@@ -1,0 +1,23 @@
+# Pre-built binaries (too large for git, download via script)
+paqet
+paqet_linux_*
+paqet_darwin_*
+paqet_windows_*
+
+# Release tarballs
+*.tar.gz
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Go build artifacts
+paqet-master/vendor/
+paqet-master/*.exe
