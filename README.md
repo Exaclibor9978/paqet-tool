@@ -9,6 +9,16 @@
 >
 > This project is in **active development**. APIs, configuration formats, and interfaces may change without notice. Use with caution in production environments.
 
+## Quick Install (Linux)
+
+Run this single command on your server (as root) to install and configure paqet interactively:
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/Exaclibor9978/paqet-tool/main/paqet.sh)
+```
+
+> Supports **Server (Foreign)** and **Client (Iran)** modes. Auto-detects architecture (`amd64` / `arm64`). No Go installation required — downloads a pre-built binary automatically.
+
 ## How It Works
 
 `paqet` captures packets using `pcap` and injects crafted TCP packets containing encrypted transport data. KCP provides reliable, encrypted communication optimized for high-loss networks using aggressive retransmission, forward error correction, and symmetric encryption.
